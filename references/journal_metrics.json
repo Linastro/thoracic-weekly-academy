@@ -1,0 +1,1045 @@
+{
+  "metadata": {
+    "scope": "User-defined thoracic weekly journal list",
+    "metric_source": "JCR Impact Factor List 2025 PDF; values are 2024 Journal Impact Factor and JIF quartile.",
+    "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf",
+    "created_date": "2026-06-09",
+    "note": "Use these cached metrics to avoid web lookup during weekly report generation. Refresh manually when a newer JCR release is required."
+  },
+  "journals": [
+    {
+      "journal": "The New England Journal of Medicine",
+      "impact_factor": 78.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "The New England Journal of Medicine",
+        "New England Journal of Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "The Lancet",
+      "impact_factor": 88.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "The Lancet",
+        "Lancet"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "JAMA",
+      "impact_factor": 55.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "JAMA"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "BMJ",
+      "impact_factor": 42.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "BMJ"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Annals of Internal Medicine",
+      "impact_factor": 15.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Annals of Internal Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Nature Medicine",
+      "impact_factor": 50.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Nature Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "CA: A Cancer Journal for Clinicians",
+      "impact_factor": 232.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "CA: A Cancer Journal for Clinicians"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "The Lancet Oncology",
+      "impact_factor": 35.9,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "The Lancet Oncology",
+        "Lancet Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of Clinical Oncology",
+      "impact_factor": 41.9,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Clinical Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "JAMA Oncology",
+      "impact_factor": 20.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "JAMA Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Annals of Oncology",
+      "impact_factor": 65.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Annals of Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Nature Reviews Cancer",
+      "impact_factor": 66.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Nature Reviews Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Nature Reviews Clinical Oncology",
+      "impact_factor": 82.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Nature Reviews Clinical Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Nature Cancer",
+      "impact_factor": 28.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Nature Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cancer Cell",
+      "impact_factor": 44.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cancer Cell"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cancer Discovery",
+      "impact_factor": 33.3,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cancer Discovery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Clinical Cancer Research",
+      "impact_factor": 12.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Clinical Cancer Research"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cancer Research",
+      "impact_factor": 33.3,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cancer Research"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cancer",
+      "impact_factor": 5.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "British Journal of Cancer",
+      "impact_factor": 6.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "British Journal of Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "European Journal of Cancer",
+      "impact_factor": 7.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "European Journal of Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of the National Cancer Institute",
+      "impact_factor": 7.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of the National Cancer Institute",
+        "JNCI"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "International Journal of Cancer",
+      "impact_factor": 4.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "International Journal of Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cancer Treatment Reviews",
+      "impact_factor": 10.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cancer Treatment Reviews"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Molecular Cancer",
+      "impact_factor": 33.9,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Molecular Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Signal Transduction and Targeted Therapy",
+      "impact_factor": 52.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Signal Transduction and Targeted Therapy"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal for ImmunoTherapy of Cancer",
+      "impact_factor": 10.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal for ImmunoTherapy of Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cancer Immunology Research",
+      "impact_factor": 8.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cancer Immunology Research"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "ESMO Open",
+      "impact_factor": 8.3,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "ESMO Open"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "JCO Precision Oncology",
+      "impact_factor": 5.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "JCO Precision Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "JCO Clinical Cancer Informatics",
+      "impact_factor": 2.8,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "JCO Clinical Cancer Informatics"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of Thoracic Oncology",
+      "impact_factor": 20.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Thoracic Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Lung Cancer",
+      "impact_factor": 4.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Lung Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "The Journal of Thoracic and Cardiovascular Surgery",
+      "impact_factor": 4.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "The Journal of Thoracic and Cardiovascular Surgery",
+        "Journal of Thoracic and Cardiovascular Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "The Annals of Thoracic Surgery",
+      "impact_factor": 3.9,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "The Annals of Thoracic Surgery",
+        "Annals of Thoracic Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "European Journal of Cardio-Thoracic Surgery",
+      "impact_factor": 3.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "European Journal of Cardio-Thoracic Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Annals of Cardiothoracic Surgery",
+      "impact_factor": 3.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Annals of Cardiothoracic Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Interdisciplinary CardioVascular and Thoracic Surgery",
+      "impact_factor": 1.3,
+      "jcr_quartile": "Q3",
+      "pubmed_journal_terms": [
+        "Interdisciplinary CardioVascular and Thoracic Surgery",
+        "Interdisciplinary Cardiovascular and Thoracic Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Interactive Cardiovascular and Thoracic Surgery",
+      "impact_factor": 2.1,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Interactive Cardiovascular and Thoracic Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Translational Lung Cancer Research",
+      "impact_factor": 3.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Translational Lung Cancer Research"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Thoracic Cancer",
+      "impact_factor": 2.3,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Thoracic Cancer"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "CHEST",
+      "impact_factor": 8.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "CHEST"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "impact_factor": 19.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "American Journal of Respiratory and Critical Care Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "European Respiratory Journal",
+      "impact_factor": 21.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "European Respiratory Journal"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Thorax",
+      "impact_factor": 7.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Thorax"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Respirology",
+      "impact_factor": 6.3,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Respirology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Annals of Surgery",
+      "impact_factor": 6.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Annals of Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "JAMA Surgery",
+      "impact_factor": 14.9,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "JAMA Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "British Journal of Surgery",
+      "impact_factor": 8.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "British Journal of Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Annals of Surgical Oncology",
+      "impact_factor": 3.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Annals of Surgical Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "European Journal of Surgical Oncology",
+      "impact_factor": 2.9,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "European Journal of Surgical Oncology",
+        "EJSO"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of Surgical Oncology",
+      "impact_factor": 2.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Surgical Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Surgical Endoscopy",
+      "impact_factor": 2.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Surgical Endoscopy"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of Gastrointestinal Surgery",
+      "impact_factor": 2.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Gastrointestinal Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Annals of Gastroenterological Surgery",
+      "impact_factor": 3.3,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Annals of Gastroenterological Surgery"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Diseases of the Esophagus",
+      "impact_factor": 2.3,
+      "jcr_quartile": "Q3",
+      "pubmed_journal_terms": [
+        "Diseases of the Esophagus"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Gut",
+      "impact_factor": 25.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Gut"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Gastroenterology",
+      "impact_factor": 51.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Gastroenterology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Clinical Gastroenterology and Hepatology",
+      "impact_factor": 12.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Clinical Gastroenterology and Hepatology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "The Lancet Gastroenterology & Hepatology",
+      "impact_factor": 38.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "The Lancet Gastroenterology & Hepatology",
+        "Lancet Gastroenterology & Hepatology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Endoscopy",
+      "impact_factor": 12.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Endoscopy"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Alimentary Pharmacology & Therapeutics",
+      "impact_factor": 6.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Alimentary Pharmacology & Therapeutics"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Esophagus",
+      "impact_factor": 3.8,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Esophagus"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "European Respiratory Review",
+      "impact_factor": 10.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "European Respiratory Review"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "ERJ Open Research",
+      "impact_factor": 4.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "ERJ Open Research"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Respiratory Medicine",
+      "impact_factor": 32.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Respiratory Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Pulmonology",
+      "impact_factor": 6.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Pulmonology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "BMC Pulmonary Medicine",
+      "impact_factor": 2.8,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "BMC Pulmonary Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Respiratory Research",
+      "impact_factor": 5.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Respiratory Research"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Seminars in Respiratory and Critical Care Medicine",
+      "impact_factor": 2.7,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Seminars in Respiratory and Critical Care Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Science",
+      "impact_factor": 45.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Science"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cell",
+      "impact_factor": 42.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cell"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Nature",
+      "impact_factor": 48.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Nature"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Nature Communications",
+      "impact_factor": 15.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Nature Communications"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Science Translational Medicine",
+      "impact_factor": 14.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Science Translational Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cell Reports Medicine",
+      "impact_factor": 10.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cell Reports Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Genome Medicine",
+      "impact_factor": 11.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Genome Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Genome Biology",
+      "impact_factor": 9.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Genome Biology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Oncogene",
+      "impact_factor": 7.3,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Oncogene"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Molecular Oncology",
+      "impact_factor": 4.5,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Molecular Oncology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cell Death & Disease",
+      "impact_factor": 9.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cell Death & Disease",
+        "Cell Death and Disease"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Cell Death & Differentiation",
+      "impact_factor": 15.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Cell Death & Differentiation",
+        "Cell Death and Differentiation"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Clinical and Translational Medicine",
+      "impact_factor": 6.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Clinical and Translational Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "EBioMedicine",
+      "impact_factor": 10.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "EBioMedicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "iScience",
+      "impact_factor": 6.9,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "iScience"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "The Lancet Digital Health",
+      "impact_factor": 24.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "The Lancet Digital Health",
+        "Lancet Digital Health"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "npj Digital Medicine",
+      "impact_factor": 15.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "npj Digital Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Nature Biomedical Engineering",
+      "impact_factor": 26.6,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Nature Biomedical Engineering"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Radiology",
+      "impact_factor": 15.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Radiology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Radiology: Artificial Intelligence",
+      "impact_factor": 13.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Radiology: Artificial Intelligence",
+        "Radiology. Artificial Intelligence",
+        "Radiology-Artificial Intelligence"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "European Radiology",
+      "impact_factor": 4.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "European Radiology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "European Journal of Radiology",
+      "impact_factor": 3.3,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "European Journal of Radiology"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Medical Image Analysis",
+      "impact_factor": 11.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Medical Image Analysis"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "IEEE Transactions on Medical Imaging",
+      "impact_factor": 9.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "IEEE Transactions on Medical Imaging"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "impact_factor": 6.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "IEEE Journal of Biomedical and Health Informatics"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of Biomedical Informatics",
+      "impact_factor": 4.5,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Journal of Biomedical Informatics"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Artificial Intelligence in Medicine",
+      "impact_factor": 6.2,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Artificial Intelligence in Medicine"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "International Journal of Medical Informatics",
+      "impact_factor": 4.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "International Journal of Medical Informatics"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of Medical Internet Research",
+      "impact_factor": 6.0,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Medical Internet Research"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "JMIR Medical Informatics",
+      "impact_factor": 3.8,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "JMIR Medical Informatics"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Patterns",
+      "impact_factor": 7.4,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Patterns"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "PLOS Digital Health",
+      "impact_factor": 7.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "PLOS Digital Health"
+      ],
+      "metric_year": "2024 JIF (released in 2025 JCR)",
+      "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    }
+  ]
+}

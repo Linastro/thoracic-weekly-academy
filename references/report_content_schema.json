@@ -1,0 +1,52 @@
+{
+  "title": "PubMed上一个自然周（epdat）胸外科相关文献检索报告",
+  "generated_date": "YYYY-MM-DD",
+  "epdat_start": "YYYY/MM/DD",
+  "epdat_end": "YYYY/MM/DD",
+  "disease_counts": {
+    "lung_cancer": 0,
+    "mediastinal_tumor": 0,
+    "esophageal_cancer": 0,
+    "pneumothorax": 0
+  },
+  "unique_records": 0,
+  "included_count": 0,
+  "excluded_count": 0,
+  "review_sections": [
+    {
+      "disease": "肺癌",
+      "type": "临床研究",
+      "review_paragraphs": [
+        "Short Chinese literature review with citations such as [1][2]."
+      ],
+      "items": [
+        {
+          "ref_no": 1,
+          "pmid": "00000000",
+          "title": "Article title.",
+          "journal": "Journal full name",
+          "journal_abbr": "Journal Abbr",
+          "pubdate": "2026 Jun 01",
+          "doi": "10.xxxx/xxxx",
+          "authors": ["Author A", "Author B"],
+          "summary": "One Chinese sentence summarizing the study.",
+          "note": "One Chinese sentence giving clinical or methodological interpretation."
+        }
+      ],
+      "empty_note": ""
+    }
+  ],
+  "overall_interpretation": [
+    "Chinese paragraph summarizing cross-cutting findings."
+  ],
+  "excluded_records": [
+    {
+      "pmid": "00000000",
+      "hit_source": "肺癌",
+      "title": "Excluded title.",
+      "journal": "Journal full name",
+      "pubdate": "2026 Jun 01",
+      "reason": "Chinese exclusion reason."
+    }
+  ]
+}

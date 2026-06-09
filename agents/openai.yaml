@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thoracic Weekly Academy"
+  short_description: "Weekly thoracic PubMed Word reports"
+  default_prompt: "Use $thoracic-weekly-academy to summarize last week's thoracic surgery research progress into a Word report."
