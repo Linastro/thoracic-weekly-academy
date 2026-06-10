@@ -20,6 +20,42 @@ DISEASE_ORDER = ["肺癌", "纵隔肿瘤", "食管癌", "气胸"]
 TYPE_ORDER = ["临床研究", "人工智能/机器学习相关研究", "其他基础研究"]
 
 
+def normalize_journal(value):
+    value = (value or "").lower()
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return " ".join(value.split())
+
+
+def load_journal_metrics(skill_dir):
+    metrics_path = skill_dir / "references" / "journal_metrics.json"
+    metrics = json.loads(metrics_path.read_text())
+    by_key = {}
+    for journal in metrics["journals"]:
+        keys = [journal.get("journal", "")]
+        keys.extend(journal.get("pubmed_journal_terms") or [])
+        for key in keys:
+            normalized = normalize_journal(key)
+            if normalized:
+                by_key[normalized] = journal
+    return by_key
+
+
+def journal_metric_label(item, metrics_by_key):
+    keys = [
+        item.get("journal"),
+        item.get("journal_abbr"),
+    ]
+    metric = None
+    for key in keys:
+        normalized = normalize_journal(key)
+        if normalized in metrics_by_key:
+            metric = metrics_by_key[normalized]
+            break
+    if not metric:
+        return "未缓存"
+    return f"{metric.get('jcr_quartile', '')}\nIF {metric.get('impact_factor', '')}".strip()
+
+
 def set_font(run, size=10.5, bold=None, italic=None, color=None):
     run.font.name = "Arial"
     run._element.rPr.rFonts.set(qn("w:eastAsia"), "Microsoft YaHei")
@@ -177,23 +213,24 @@ def section_map(content):
     return mapped
 
 
-def add_item_table(doc, items):
-    table = doc.add_table(rows=1, cols=5)
+def add_item_table(doc, items, metrics_by_key):
+    table = doc.add_table(rows=1, cols=6)
     table.style = "Table Grid"
-    for idx, header in enumerate(["引用", "题名 / 期刊", "研究要点", "临床或方法学提示", "PMID"]):
+    for idx, header in enumerate(["引用", "题名 / 期刊", "JCR/IF", "研究要点", "临床或方法学提示", "PMID"]):
         table.rows[0].cells[idx].text = header
     for item in items:
         cells = table.add_row().cells
         cells[0].text = f"[{item['ref_no']}]"
         cells[1].text = f"{item.get('title','')}\n{item.get('journal_abbr') or item.get('journal','')}; {item.get('pubdate','')}"
-        cells[2].text = item.get("summary", "")
-        cells[3].text = item.get("note", "")
-        p = cells[4].paragraphs[0]
+        cells[2].text = journal_metric_label(item, metrics_by_key)
+        cells[3].text = item.get("summary", "")
+        cells[4].text = item.get("note", "")
+        p = cells[5].paragraphs[0]
         p.text = ""
         pmid = item.get("pmid", "")
         if pmid:
             add_hyperlink(p, pmid, f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/")
-    format_table(table, [1.1, 5.2, 5.1, 4.3, 1.8])
+    format_table(table, [1.0, 4.5, 1.6, 4.6, 4.0, 1.5])
 
 
 def add_exclusion_table(doc, records):
@@ -241,6 +278,8 @@ def add_jcr_table(doc, content, skill_dir):
 def build(content, out_path, include_jcr=False, skill_dir=None):
     doc = Document()
     style_doc(doc)
+    skill_dir = skill_dir or Path(__file__).resolve().parents[1]
+    metrics_by_key = load_journal_metrics(skill_dir)
     add_title(doc, content.get("title") or "PubMed上一个自然周（epdat）胸外科相关文献检索报告")
     para(doc, f"生成日期：{content.get('generated_date','')}；检索限定：Electronic Date of Publication [epdat] = {content.get('epdat_start','')} 至 {content.get('epdat_end','')}（周一至周日）。")
     para(doc, "疾病范围：肺癌、纵隔肿瘤、食管癌、气胸。期刊范围：按预设高影响综合医学、肿瘤、胸外科/呼吸、消化/食管、基础科学和医学AI期刊列表逐项限定。")
@@ -262,7 +301,7 @@ def build(content, out_path, include_jcr=False, skill_dir=None):
             for text in sec.get("review_paragraphs", []):
                 para(doc, text, first_indent=True)
             if sec.get("items"):
-                add_item_table(doc, sec["items"])
+                add_item_table(doc, sec["items"], metrics_by_key)
             else:
                 para(doc, sec.get("empty_note") or "本类未检索到符合条件的文献。", size=10)
 

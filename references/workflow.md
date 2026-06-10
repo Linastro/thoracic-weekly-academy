@@ -62,13 +62,13 @@ Use this order:
 3. Disease-by-disease sections.
 4. For each disease/type subsection:
    - A short Chinese literature review paragraph or two, with `[n]` citations in ascending order when possible.
-   - A table of every included article in that subsection.
+   - A table of every included article in that subsection, including cached JCR quartile and impact factor from `journal_metrics.json`.
    - If no included article exists, state that explicitly and explain what was checked.
 5. Overall interpretation.
 6. AMA reference list.
 7. Exclusion/audit appendix.
 
-Do not include a JCR/impact-factor table by default. If the user asks to add one, use `journal_metrics.json` and place it at the end.
+Show JCR quartile and impact factor in each included-article summary table by default. Do not include a separate JCR/impact-factor appendix table by default; if the user asks to add one, use `journal_metrics.json` and place it at the end.
 
 ## Citation Discipline
 

@@ -8,6 +8,7 @@ Codex Skill for generating Chinese weekly thoracic-surgery academic progress rep
 - Covers lung cancer, mediastinal tumors, esophageal cancer, and pneumothorax.
 - Categorizes papers into clinical research, AI/machine learning research, and other basic/translational research.
 - Produces a Chinese Word report with literature-review paragraphs, article tables, AMA references, and an exclusion audit.
+- Shows cached JCR quartile and impact factor values in each included-article summary table.
 - Includes a cached journal scope with 2025 JCR / 2024 Journal Impact Factor values in `references/journal_metrics.json`.
 
 ## Usage
