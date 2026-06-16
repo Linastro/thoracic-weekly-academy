@@ -7,7 +7,7 @@
     "lung_cancer": 0,
     "mediastinal_tumor": 0,
     "esophageal_cancer": 0,
-    "pneumothorax": 0
+    "pneumothorax_chest_trauma_rib_fracture_chest_wall_deformity": 0
   },
   "unique_records": 0,
   "included_count": 0,

@@ -42,9 +42,20 @@ DISEASES = {
         'OR esophageal squamous cell carcinoma[tiab] OR oesophageal squamous cell carcinoma[tiab] '
         'OR esophageal adenocarcinoma[tiab] OR oesophageal adenocarcinoma[tiab] OR ESCC[tiab]'
     ),
-    "pneumothorax": (
+    "pneumothorax_chest_trauma_rib_fracture_chest_wall_deformity": (
         '"Pneumothorax"[Mesh] OR pneumothorax[tiab] OR pneumothoraces[tiab] '
-        'OR spontaneous pneumothorax[tiab] OR tension pneumothorax[tiab] OR secondary pneumothorax[tiab]'
+        'OR spontaneous pneumothorax[tiab] OR tension pneumothorax[tiab] OR secondary pneumothorax[tiab] '
+        'OR "Thoracic Injuries"[Mesh] OR chest trauma[tiab] OR thoracic trauma[tiab] '
+        'OR thoracic injur*[tiab] OR chest injur*[tiab] OR blunt chest trauma[tiab] '
+        'OR penetrating chest trauma[tiab] OR "Rib Fractures"[Mesh] OR rib fracture*[tiab] '
+        'OR multiple rib fracture*[tiab] OR fractured rib*[tiab] OR flail chest[tiab] '
+        'OR surgical stabilization of rib fracture*[tiab] OR SSRF[tiab] OR rib fixation[tiab] '
+        'OR sternal fracture*[tiab] OR traumatic pneumothorax[tiab] OR traumatic hemothorax[tiab] '
+        'OR traumatic haemothorax[tiab] OR "Pulmonary Contusion"[Mesh] OR pulmonary contusion[tiab] '
+        'OR chest wall deformit*[tiab] OR thoracic deformit*[tiab] OR chest wall malformation*[tiab] '
+        'OR pectus excavatum[tiab] OR pectus carinatum[tiab] OR Nuss procedure[tiab] '
+        'OR Ravitch procedure[tiab] OR MIRPE[tiab] OR minimally invasive repair of pectus excavatum[tiab] '
+        'OR chest wall reconstruction[tiab] OR chest wall injur*[tiab] OR chest wall trauma[tiab]'
     ),
 }
 

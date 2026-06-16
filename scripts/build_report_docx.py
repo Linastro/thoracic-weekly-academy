@@ -16,7 +16,15 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Inches, Pt, RGBColor
 
 
-DISEASE_ORDER = ["肺癌", "纵隔肿瘤", "食管癌", "气胸"]
+DISEASE_ORDER = ["肺癌", "纵隔肿瘤", "食管癌", "气胸、胸部外伤、肋骨骨折、胸壁畸形"]
+DISEASE_COUNT_LABELS = {
+    "lung_cancer": "肺癌",
+    "mediastinal_tumor": "纵隔肿瘤",
+    "esophageal_cancer": "食管癌",
+    "pneumothorax": "气胸",
+    "pneumothorax_chest_trauma_rib_fracture_chest_wall_deformity": "气胸、胸部外伤、肋骨骨折、胸壁畸形",
+    "mediastinal_tumor_supplement": "纵隔肿瘤补充检索",
+}
 TYPE_ORDER = ["临床研究", "人工智能/机器学习相关研究", "其他基础研究"]
 
 
@@ -282,12 +290,12 @@ def build(content, out_path, include_jcr=False, skill_dir=None):
     metrics_by_key = load_journal_metrics(skill_dir)
     add_title(doc, content.get("title") or "PubMed上一个自然周（epdat）胸外科相关文献检索报告")
     para(doc, f"生成日期：{content.get('generated_date','')}；检索限定：Electronic Date of Publication [epdat] = {content.get('epdat_start','')} 至 {content.get('epdat_end','')}（周一至周日）。")
-    para(doc, "疾病范围：肺癌、纵隔肿瘤、食管癌、气胸。期刊范围：按预设高影响综合医学、肿瘤、胸外科/呼吸、消化/食管、基础科学和医学AI期刊列表逐项限定。")
+    para(doc, "疾病范围：肺癌、纵隔肿瘤、食管癌，以及气胸、胸部外伤、肋骨骨折、胸壁畸形。期刊范围：按预设高影响综合医学、肿瘤、胸外科/呼吸、消化/食管、基础科学和医学AI期刊列表逐项限定。")
     para(doc, "纳入原则：仅纳入原始研究、系统综述/荟萃分析或与目标疾病高度相关的转化/机制综述；新闻、研究摘要、作者反思、回复信、评论，以及仅被关键词误命中但非目标疾病的记录不进入正文。")
 
     add_heading(doc, "一、检索与审计结果", 1)
     counts = content.get("disease_counts", {})
-    count_text = ", ".join(f"{k}: {v}" for k, v in counts.items())
+    count_text = ", ".join(f"{DISEASE_COUNT_LABELS.get(k, k)}: {v}" for k, v in counts.items())
     para(doc, f"严格疾病检索命中数：{count_text}。")
     para(doc, f"合并去重后共{content.get('unique_records', 0)}条记录；正文纳入{content.get('included_count', 0)}条，排除{content.get('excluded_count', 0)}条。所有排除记录及原因见附录。")
 

@@ -17,9 +17,11 @@ Use four disease groups:
 1. Lung cancer
 2. Mediastinal tumors
 3. Esophageal cancer
-4. Pneumothorax
+4. Pneumothorax, chest trauma, rib fracture, and chest wall deformity
 
-The bundled search script contains default MeSH/title/abstract terms. If a strict mediastinal tumor search returns no records, run the supplemental broad mediastinal search in the script and manually screen those hits; do not automatically include broad hits.
+The bundled search script contains default MeSH/title/abstract terms. Treat the fourth group as one report section, not as four separate disease sections. If a strict mediastinal tumor search returns no records, run the supplemental broad mediastinal search in the script and manually screen those hits; do not automatically include broad hits.
+
+When creating `review_sections`, use the fourth section disease label exactly as `气胸、胸部外伤、肋骨骨折、胸壁畸形` so the Word generator can place included articles under the combined fourth section.
 
 ## Journal Scope
 
@@ -39,7 +41,7 @@ Exclude:
 - News, briefs, research summaries, author reflections, replies, letters without original data, editorials, and comments.
 - Records only incidentally mentioning the disease.
 - Studies centered on a different primary disease, even if a target disease appears in a comparator, covariate, or secondary discussion.
-- False-positive pneumothorax or mediastinal hits where the word appears only as an imaging sign, complication descriptor, or unrelated anatomic term.
+- False-positive fourth-group or mediastinal hits where pneumothorax, chest trauma, rib fracture, chest wall deformity, or mediastinal terms appear only as imaging signs, complication descriptors, or unrelated anatomic terms.
 
 Always keep an excluded-record audit table with PMID, hit source, title/journal, and reason.
 

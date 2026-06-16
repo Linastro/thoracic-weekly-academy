@@ -1,10 +1,10 @@
 {
   "metadata": {
     "scope": "User-defined thoracic weekly journal list",
-    "metric_source": "JCR Impact Factor List 2025 PDF; values are 2024 Journal Impact Factor and JIF quartile.",
+    "metric_source": "JCR Impact Factor List 2025 PDF plus selected user-provided additions; values are 2024 Journal Impact Factor and JIF quartile.",
     "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf",
     "created_date": "2026-06-09",
-    "note": "Use these cached metrics to avoid web lookup during weekly report generation. Refresh manually when a newer JCR release is required."
+    "note": "Use these cached metrics to avoid web lookup during weekly report generation. Entries marked user-provided were supplied by Dr. Chutong Lin on 2026-06-16. Refresh manually when a newer JCR release is required."
   },
   "journals": [
     {
@@ -1040,6 +1040,136 @@
       ],
       "metric_year": "2024 JIF (released in 2025 JCR)",
       "source_url": "https://blog.gatsbi.com/content/files/2025/09/JCR-Impact-Factors_2025.pdf"
+    },
+    {
+      "journal": "Journal of Trauma and Acute Care Surgery",
+      "impact_factor": 3.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Trauma and Acute Care Surgery"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "World Journal of Emergency Surgery",
+      "impact_factor": 5.8,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "World Journal of Emergency Surgery"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "European Journal of Trauma and Emergency Surgery",
+      "impact_factor": 2.2,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "European Journal of Trauma and Emergency Surgery"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Trauma Surgery & Acute Care Open",
+      "impact_factor": 2.2,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Trauma Surgery & Acute Care Open",
+        "Trauma Surgery and Acute Care Open"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Injury - International Journal of the Care of the Injured",
+      "impact_factor": 2.0,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Injury",
+        "Injury - International Journal of the Care of the Injured",
+        "Injury International Journal of the Care of the Injured"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Journal of Orthopaedic Trauma",
+      "impact_factor": 1.8,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Journal of Orthopaedic Trauma",
+        "Journal of Orthopedic Trauma"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Journal of Pediatric Surgery",
+      "impact_factor": 2.5,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Pediatric Surgery"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Pediatric Surgery International",
+      "impact_factor": 1.6,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Pediatric Surgery International",
+        "Paediatric Surgery International"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Journal of Orthopaedics and Traumatology",
+      "impact_factor": 3.7,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Orthopaedics and Traumatology",
+        "Journal of Orthopedics and Traumatology"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Archives of Orthopaedic and Trauma Surgery",
+      "impact_factor": 2.1,
+      "jcr_quartile": "Q2",
+      "pubmed_journal_terms": [
+        "Archives of Orthopaedic and Trauma Surgery",
+        "Archives of Orthopedic and Trauma Surgery"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Journal of Bone and Joint Surgery - American Volume",
+      "impact_factor": 4.3,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Journal of Bone and Joint Surgery - American Volume",
+        "The Journal of Bone and Joint Surgery. American Volume",
+        "Journal of Bone and Joint Surgery American Volume"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
+    },
+    {
+      "journal": "Bone & Joint Research",
+      "impact_factor": 5.1,
+      "jcr_quartile": "Q1",
+      "pubmed_journal_terms": [
+        "Bone & Joint Research",
+        "Bone and Joint Research"
+      ],
+      "metric_year": "2024 JIF (user-provided, added 2026-06-16)",
+      "source_url": "user-provided"
     }
   ]
 }

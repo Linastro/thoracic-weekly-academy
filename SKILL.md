@@ -1,6 +1,6 @@
 ---
 name: thoracic-weekly-academy
-description: Generate Chinese weekly thoracic-surgery academic progress reports from PubMed and export a Word document. Use when the user asks to summarize last week's thoracic research progress, weekly thoracic surgery literature, PubMed epdat reports, or reports covering lung cancer, mediastinal tumors, esophageal cancer, and pneumothorax across a fixed high-impact journal scope.
+description: Generate Chinese weekly thoracic-surgery academic progress reports from PubMed and export a Word document. Use when the user asks to summarize last week's thoracic research progress, weekly thoracic surgery literature, PubMed epdat reports, or reports covering lung cancer, mediastinal tumors, esophageal cancer, and a combined non-oncologic thoracic group covering pneumothorax, chest trauma, rib fracture, and chest wall deformity across a fixed high-impact journal scope.
 ---
 
 # Thoracic Weekly Academy
@@ -10,7 +10,7 @@ description: Generate Chinese weekly thoracic-surgery academic progress reports 
 Produce a Word report matching Dr. Chutong Lin's weekly thoracic academic review style:
 
 - PubMed search is strictly limited to the previous natural week, Monday-Sunday, using `Electronic Date of Publication [epdat]`.
-- Disease scope is lung cancer, mediastinal tumors, esophageal cancer, and pneumothorax.
+- Disease scope is lung cancer, mediastinal tumors, esophageal cancer, and a combined fourth section covering pneumothorax, chest trauma, rib fracture, and chest wall deformity.
 - Each disease is organized into clinical research, artificial intelligence/machine learning research, and other basic/translational research.
 - The report is written in Chinese, uses numbered in-text citations such as `[1]`, and formats references in AMA style.
 - Each included-article summary table in the body must show cached JCR quartile and impact factor values from `references/journal_metrics.json`.
@@ -34,7 +34,7 @@ The final response should link only to the final `.docx` unless the user asks fo
 
 `references/journal_metrics.json` contains the user-defined journal scope plus cached JCR quartile and impact factor values:
 
-- Source: 2025 JCR list, using 2024 Journal Impact Factor.
+- Source: 2025 JCR list, using 2024 Journal Impact Factor; selected user-provided additions are marked in `references/journal_metrics.json`.
 - Created: 2026-06-09.
 - Use these cached values in every included-article summary table to display `JCR/IF`.
 - Display `未缓存` if an included journal cannot be matched by full journal title, abbreviation, or PubMed journal term.
