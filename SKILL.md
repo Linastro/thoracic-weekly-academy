@@ -13,8 +13,10 @@ Produce a Word report matching Dr. Chutong Lin's weekly thoracic academic review
 - Disease scope is lung cancer, mediastinal tumors, esophageal cancer, and a combined fourth section covering pneumothorax, chest trauma, rib fracture, and chest wall deformity.
 - Each disease is organized into clinical research, artificial intelligence/machine learning research, and other basic/translational research.
 - The report is written in Chinese, uses numbered in-text citations such as `[1]`, and formats references in AMA style.
-- Each included-article summary table in the body must show cached JCR quartile and impact factor values from `references/journal_metrics.json`.
-- By default, do not include a standalone JCR/impact-factor appendix table in the Word report. Add the standalone appendix table only when the user explicitly asks for it.
+- When adjacent citations appear together, merge them into compact ranges, e.g. write `[1-3]` instead of `[1][2][3]`, and `[1,3-5]` instead of `[1][3][4][5]`.
+- Literature-review paragraphs should be relatively detailed: summarize study design/population or model/data source, key endpoint or method, main finding, and clinical/methodological implication rather than only translating titles.
+- Each included-article summary table in the body must show cached JCR quartile, impact factor, and 新锐分区 values from `references/journal_metrics.json`.
+- By default, do not include a standalone JCR/impact-factor/新锐分区 appendix table in the Word report. Add the standalone appendix table only when the user explicitly asks for it.
 
 ## Required Workflow
 
@@ -32,10 +34,13 @@ The final response should link only to the final `.docx` unless the user asks fo
 
 ## Static Journal Metrics
 
-`references/journal_metrics.json` contains the user-defined journal scope plus cached JCR quartile and impact factor values:
+`references/journal_metrics.json` contains the user-defined journal scope plus cached JCR quartile, impact factor, and 新锐分区 values:
 
-- Source: 2025 JCR list, using 2024 Journal Impact Factor; selected user-provided additions are marked in `references/journal_metrics.json`.
-- Created: 2026-06-09.
-- Use these cached values in every included-article summary table to display `JCR/IF`.
+- JCR/IF source: `/Users/linastro/Documents/LinDocuments/文稿/医学/胸外pro/7职务/宣传/公众号/※科研周报/JCR 2025所有期刊影响因子.xlsx`, using workbook columns `2025 JIF` and `JIF quartile`.
+- 新锐分区 source: `/Users/linastro/Documents/LinDocuments/文稿/医学/胸外pro/7职务/宣传/公众号/※科研周报/2026新锐分区.xlsx`, using workbook columns `新锐分区` and `类型`.
+- Updated: 2026-06-22.
+- Treat `new_talent_quartile` as the latest 新锐分区. Do not substitute `JCI quartile` when `new_talent_quartile` is null; omit 新锐分区 for that journal until manually updated.
+- Do not display TOP information in the report.
+- Use these cached values in every included-article summary table to display `JCR/IF/新锐`.
 - Display `未缓存` if an included journal cannot be matched by full journal title, abbreviation, or PubMed journal term.
 - Refresh the file only when the user asks to update metrics or when a newer JCR release is required.

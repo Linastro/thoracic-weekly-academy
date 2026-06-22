@@ -48,20 +48,29 @@ def load_journal_metrics(skill_dir):
     return by_key
 
 
-def journal_metric_label(item, metrics_by_key):
+def journal_metric(item, metrics_by_key):
     keys = [
         item.get("journal"),
         item.get("journal_abbr"),
     ]
-    metric = None
     for key in keys:
         normalized = normalize_journal(key)
         if normalized in metrics_by_key:
-            metric = metrics_by_key[normalized]
-            break
+            return metrics_by_key[normalized]
+    return None
+
+
+def journal_metric_label(item, metrics_by_key):
+    metric = journal_metric(item, metrics_by_key)
     if not metric:
         return "未缓存"
-    return f"{metric.get('jcr_quartile', '')}\nIF {metric.get('impact_factor', '')}".strip()
+    parts = [
+        f"JCR {metric.get('jcr_quartile', '')}".strip(),
+        f"IF {metric.get('impact_factor', '')}".strip(),
+    ]
+    if metric.get("new_talent_quartile"):
+        parts.append(f"新锐 {metric['new_talent_quartile']}")
+    return "\n".join(part for part in parts if part and not part.endswith(" "))
 
 
 def set_font(run, size=10.5, bold=None, italic=None, color=None):
@@ -168,6 +177,7 @@ def format_table(table, widths_cm=None):
 
 
 def para(doc, text="", size=10.5, bold=False, italic=False, first_indent=False):
+    text = compact_citations(text)
     p = doc.add_paragraph()
     p.paragraph_format.space_after = Pt(5)
     p.paragraph_format.line_spacing = 1.08
@@ -191,6 +201,25 @@ def add_heading(doc, text, level):
     p.paragraph_format.space_after = Pt(4)
     for run in p.runs:
         set_font(run, size={1: 14.5, 2: 12.5, 3: 11}[level], bold=True, color="17365D")
+
+
+def compact_citations(text):
+    def repl(match):
+        nums = [int(x) for x in re.findall(r"\d+", match.group(0))]
+        if not nums:
+            return match.group(0)
+        ranges = []
+        start = prev = nums[0]
+        for num in nums[1:]:
+            if num == prev + 1:
+                prev = num
+                continue
+            ranges.append(f"{start}-{prev}" if start != prev else str(start))
+            start = prev = num
+        ranges.append(f"{start}-{prev}" if start != prev else str(start))
+        return "[" + ",".join(ranges) + "]"
+
+    return re.sub(r"(?:\[\d+\])+", repl, text or "")
 
 
 def authors_ama(authors):
@@ -224,15 +253,15 @@ def section_map(content):
 def add_item_table(doc, items, metrics_by_key):
     table = doc.add_table(rows=1, cols=6)
     table.style = "Table Grid"
-    for idx, header in enumerate(["引用", "题名 / 期刊", "JCR/IF", "研究要点", "临床或方法学提示", "PMID"]):
+    for idx, header in enumerate(["引用", "题名 / 期刊", "JCR/IF/新锐", "研究要点", "临床或方法学提示", "PMID"]):
         table.rows[0].cells[idx].text = header
     for item in items:
         cells = table.add_row().cells
         cells[0].text = f"[{item['ref_no']}]"
         cells[1].text = f"{item.get('title','')}\n{item.get('journal_abbr') or item.get('journal','')}; {item.get('pubdate','')}"
         cells[2].text = journal_metric_label(item, metrics_by_key)
-        cells[3].text = item.get("summary", "")
-        cells[4].text = item.get("note", "")
+        cells[3].text = compact_citations(item.get("summary", ""))
+        cells[4].text = compact_citations(item.get("note", ""))
         p = cells[5].paragraphs[0]
         p.text = ""
         pmid = item.get("pmid", "")
@@ -265,11 +294,11 @@ def add_jcr_table(doc, content, skill_dir):
     by_name = {j["journal"]: j for j in metrics["journals"]}
     used = sorted({item.get("journal") for s in content.get("review_sections", []) for item in s.get("items", []) if item.get("journal")})
     doc.add_page_break()
-    add_heading(doc, "文末：本报告涉及期刊的JCR分区与最新影响因子", 1)
-    para(doc, "指标来源：Skill内置缓存，JCR 2025发布的2024 Journal Impact Factor。", size=9.5, italic=True)
-    table = doc.add_table(rows=1, cols=4)
+    add_heading(doc, "文末：本报告涉及期刊的JCR分区、影响因子与新锐分区", 1)
+    para(doc, "指标来源：Skill内置缓存；JCR与影响因子来自用户提供的JCR 2025 Excel工作簿，新锐分区来自用户提供的2026新锐分区.xlsx。", size=9.5, italic=True)
+    table = doc.add_table(rows=1, cols=5)
     table.style = "Table Grid"
-    for idx, header in enumerate(["期刊", "JCR分区", "最新影响因子", "指标年份"]):
+    for idx, header in enumerate(["期刊", "JCR分区", "最新影响因子", "新锐分区", "指标年份"]):
         table.rows[0].cells[idx].text = header
     for journal in used:
         metric = by_name.get(journal)
@@ -277,10 +306,11 @@ def add_jcr_table(doc, content, skill_dir):
             continue
         cells = table.add_row().cells
         cells[0].text = metric["journal"]
-        cells[1].text = metric["jcr_quartile"]
-        cells[2].text = str(metric["impact_factor"])
-        cells[3].text = metric["metric_year"]
-    format_table(table, [6.5, 2.0, 2.6, 5.5])
+        cells[1].text = metric.get("jcr_quartile", "")
+        cells[2].text = str(metric.get("impact_factor", ""))
+        cells[3].text = metric.get("new_talent_quartile") or ""
+        cells[4].text = metric.get("metric_year", "")
+    format_table(table, [5.9, 1.8, 2.3, 2.0, 4.6])
 
 
 def build(content, out_path, include_jcr=False, skill_dir=None):

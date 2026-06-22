@@ -29,8 +29,8 @@
           "pubdate": "2026 Jun 01",
           "doi": "10.xxxx/xxxx",
           "authors": ["Author A", "Author B"],
-          "summary": "One Chinese sentence summarizing the study.",
-          "note": "One Chinese sentence giving clinical or methodological interpretation."
+          "summary": "Two to three concise Chinese sentences summarizing design/data source, method or endpoint, and main finding.",
+          "note": "One to two Chinese sentences giving clinical or methodological interpretation, including limitations when apparent."
         }
       ],
       "empty_note": ""

@@ -63,19 +63,20 @@ Use this order:
 2. Search and audit results.
 3. Disease-by-disease sections.
 4. For each disease/type subsection:
-   - A short Chinese literature review paragraph or two, with `[n]` citations in ascending order when possible.
-   - A table of every included article in that subsection, including cached JCR quartile and impact factor from `journal_metrics.json`.
+   - One to two relatively detailed Chinese literature review paragraphs, with citations in ascending order when possible. Cover the study design/population or model/data source, core endpoint or method, main result, and clinical/methodological implication; avoid title-level summaries.
+   - A table of every included article in that subsection, including cached JCR quartile, impact factor, and 新锐分区 from `journal_metrics.json`.
    - If no included article exists, state that explicitly and explain what was checked.
 5. Overall interpretation.
 6. AMA reference list.
 7. Exclusion/audit appendix.
 
-Show JCR quartile and impact factor in each included-article summary table by default. Do not include a separate JCR/impact-factor appendix table by default; if the user asks to add one, use `journal_metrics.json` and place it at the end.
+Show JCR quartile, impact factor, and 新锐分区 in each included-article summary table by default. Do not include a separate JCR/impact-factor/新锐分区 appendix table by default; if the user asks to add one, use `journal_metrics.json` and place it at the end.
 
 ## Citation Discipline
 
 - Assign reference numbers by first appearance in the report body.
 - Keep the same reference number in tables and reference list.
+- Merge adjacent in-text citation numbers into compact ranges before finalizing paragraphs: `[1][2][3]` → `[1-3]`; `[1][3][4][5]` → `[1,3-5]`.
 - Use AMA reference style:
   `Authors. Title. Journal Abbreviation. Published online Date. doi:DOI PMID: PMID.`
 - For more than six authors, list the first three followed by `et al`.
